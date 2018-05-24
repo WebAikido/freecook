@@ -1,7 +1,22 @@
 body {
   margin: 0;
 }
+@font-face {
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("PT Sans Narrow"), local("PTSans-Narrow"), url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.woff") format("woff"), url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.ttf") format("truetype"), url("../fonts/pt-sans-narrow-v8-latin_cyrillic-regular.svg#PTSansNarrow") format("svg");
+  /* Legacy iOS */ }
+  @font-face {
+    font-family: 'pelmeshka';
+    src: url('../fonts/pelmeshka-webfont.woff2') format('woff2'),
+         url('../fonts/pelmeshka-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 @import 'common/greating';
 @import 'common/variables';
 @import 'common/mixins';

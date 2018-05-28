@@ -1,10 +1,96 @@
 header.page-header
 	nav.main-nav
+		.main-nav__button
+			button.main-button__toggle(type="button")
+			button.main-button__menu(type="button") Menu
 		ul.main-nav__list
-			li.main-nav__item.main-nav__item--menu
-				a.main-nav__link.main-nav__toggle
-				a.main-nav__link.main-nav__menu Menu
-			li.main-nav__item.main-nav__item--icon
-				a.main-nav__link.main-nav__item--globe
-				a.main-nav__link.main-nav__item--basket
-				a.main-nav__link.main-nav__item--user
+			li.site-list__item.site-list__item--globe
+				a(href="#")
+			li.site-list__item.site-list__item--basket
+				a(href="#")
+			li.site-list__item.site-list__item--user
+				a(href="#")
+main.page-main
+	section.first
+		.first__wrapper
+			.fist__img
+				img(src='assets/img/Grandma.svg', alt='Grandma' style='width="154"; height="210";')
+			h2.first__title This is FreeCook!
+			p.first__text Here you can buy and sell homemade food
+			.first__down-icon
+				img(src='assets/img/Down icon.svg', alt='Down icon' style='width="38"; height="35";')
+	section.homemade
+			h2.homemade__title Buy homemade food
+			p.homemade__text Choose the dish
+			.homemade__item1
+				img(src='assets/img/Item 1.svg', alt='Add to cart' style='width="168"; height="301";')
+			.down-icon.homemade__down-icon--1
+				img(src='assets/img/arrow.svg', alt='arrow' style='width="31"; height="58";')
+			p.homemade__order Make an order
+			.homemade__item2
+				img(src='assets/img/order.svg', alt='order' style='width="330"; height="237";')
+			.down-icon.homemade__down-icon--2
+				svg(width='39', height='65', viewbox='0 0 39 65', fill='none', xmlns='http://www.w3.org/2000/svg')
+					path(d='M14.5 0L14.2908 58M14.2908 58C5.7975 47.6061 2.73956 38.9191 0 18.8694M14.2908 58C22.6897 47.9829 26.4723 40.1981 31 21.1183', transform='translate(4 1)', stroke='white', stroke-width='7', stroke-dasharray='30 10')
+			p.homemade__get Get delicious homemade <br> healthy food!
+			.homemade__item3
+				img(src='assets/img/get_item.svg', alt='Get delicious homemade healthy food!' style='width="201"; height="231";')
+	section.sell
+		h2.sell__title Sell homemade food
+		p.sell__text Add the recipe
+		.sell__item1
+			img(src='assets/img/recipe1.svg', alt='recipe' style='width="327"; height="248";')
+		.down-icon.sell__down-icon--1
+			img(src='assets/img/arrow.svg', alt='arrow' style='width="31"; height="58";')
+		p.seel__orders Accept orders
+		.sell__item2
+			img(src='assets/img/accept_orders.svg', alt='accept_orders' style='width="330"; height="247";')
+		.down-icon.sell__down-icon--2
+			img(src='assets/img/arrow.svg', alt='arrow' style='width="31"; height="58";')
+		p.seel__dishes Prepare the dishes 
+		.sell__item3
+			img(src='assets/img/dishes.svg', alt='accept_orders' style='width="278"; height="187";')
+		.down-icon.sell__down-icon--3
+			img(src='assets/img/arrow.svg', alt='arrow' style='width="31"; height="58";')
+		p.seel__getmoney Get money <br> Make your customers happy!
+		.sell__item4
+			img(src='assets/img/chef.svg', alt='accept_orders' style='width="280"; height="290";')
+	section.action
+		h2.action__title FreeCook
+		p.action__text Top secret family recipes 
+		.action__btn
+			button.action__menu(type="button") Menu
+			button.action__sing-up(type="button") Sign up
+footer.page-footer
+	.page-footer__wrapper
+		.page-footer__contacts.contacts
+			ul.contacts__list
+				li.contacts__item
+					a.contact__link(href="#") Menu
+				li.contacts__item
+					a.contact__link(href="#") Profile
+				li.contacts__item
+					a.contact__link(href="#") About service
+				li.contacts__item
+					a.contact__link(href="#") Contact us
+		.page-footer__social.social
+			ul.social__list
+				li.social__item
+					a.social__link(href="#") Facebook
+				li.social__item
+					a.social__link(href="#") Instagram
+				li.social__item
+					a.social__link(href="#") Twitter
+		.page-footer__desighed.desighed
+			b.desighed__text
+			ul.desighed__list
+				li.desighed__item
+					p.desighed__circle
+				li.desighed__item
+					p.desighed__circle
+		.page-footer__copyright.copyright
+			p.copyright__title Freecook is a site for buying and <br> selling home food with
+			p.copyright__text © FREECOOK | All rights reserved | 2018, Lithuania
+
+
+

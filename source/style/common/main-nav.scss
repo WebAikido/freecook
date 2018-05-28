@@ -1,12 +1,88 @@
-.page-header{
-	position: relative;
+
+.main-nav{
+	display: flex;
+	align-items:center;
+	Justify-content:space-between;
 	width: auto;
 	min-height: 56px;
 	background-color: #2d2d2d;
 	color: #fff;
+	padding-left: 12px;
+	padding-right: 19px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
 }
+.main-nav__button{
+	display: flex;
+	align-items:center;
+}
+.main-button__toggle{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	margin-right: 25px;
 
+	display: block;
+	width: 30px;
+	height: 30px;
 
+	background-color: #2d2d2d;
+
+	cursor: pointer;
+	border: none;
+	outline: none;
+
+//	&:hover, &:active{
+//		background-color: #624530;
+//	}
+}
+.main-button__toggle::before{
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: 0px;
+	width: 22.5px;
+	height: 2.5px;
+	background-color: #FFFFFF;
+	box-shadow: 0 8px 0 0 #ffffff, 0 16px 0 0 #ffffff;
+}
+.main-button__menu{
+	margin: 0;
+	padding: 0;
+	padding-bottom: 5px;
+	width: 94px;
+	height: 36px;
+	font-family: "pelmeshka";
+	font-size: 20px;
+	line-height: 29px;
+	text-align: center;
+	color: #f2f2f2;
+	border: none;
+	border-radius: 6px;
+	background-color: #66CC33;
+	cursor: pointer;
+}
+.main-nav__list{
+	display: flex;
+	Justify-content:space-between;
+	list-style: none;
+}
+.site-list__item{
+	width: 24px;
+	height: 27px;
+	cursor: pointer;
+}
+.site-list__item--globe{
+	background: url(../img/globe.svg) no-repeat;
+	margin-right: 30px;
+}
+.site-list__item--basket{
+	background: url(../img/basket.svg) no-repeat;
+	margin-right: 30px;
+}
+.site-list__item--user{
+	background: url(../img/user.svg) no-repeat;
+}
 /*.main-nav__toggle{
 	position: absolute;
 	top: 0;
@@ -37,7 +113,7 @@
 	height: 2.5px;
 	background-color: #FFFFFF;
 	box-shadow: 0 8px 0 0 #ffffff, 0 16px 0 0 #ffffff;
-}*/
+}
 .main-nav__list{
 	margin: 0;
 	padding: 0;
@@ -72,18 +148,21 @@ border-radius: 6px;
 background-color: #66CC33;
 }
 .main-nav__toggle{
+	width: 10px;
 	background: url(../img/menu.svg) no-repeat;
 	
 }
 .main-nav__item--globe{
  background: url(../img/globe.svg) no-repeat;
+ padding-right: 30px;
 
 }
 .main-nav__item--basket{
 	background: url(../img/basket.svg) no-repeat;
+	
 }
 
 .main-nav__item--user{
 	background: url(../img/user.svg) no-repeat;
 
-}
+}*/

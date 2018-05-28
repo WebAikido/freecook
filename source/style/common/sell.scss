@@ -1,0 +1,75 @@
+.sell{
+	width: auto;
+}
+.sell__title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	font-size: 28px;
+	text-align: center;
+}
+.sell__text, .seel__orders, .seel__dishes, .seel__getmoney{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 20px;
+}
+.sell__item1{
+	text-align: left;
+	height: 357px;
+	padding-left: 17px;
+	background: url(../img/bg_recipe.svg);
+	background-repeat: no-repeat;
+	
+	background-position-x: 0%;
+	background-position-y: 112%;
+
+}
+.sell__down-icon--1{
+	margin-top: -87px;
+}
+.sell__item2{
+	text-align: right;
+	height: 307px;
+	
+	background: url(../img/bg_accept.svg);
+	background-repeat: no-repeat;
+	
+	background-position-x: 100%;
+	background-position-y: 100%;
+	img{
+		padding-right: 15px;
+	}
+}
+.sell__down-icon--2{
+ margin-top: -36px;
+}
+.sell__item3{
+	text-align: left;
+	height: 320px;
+	padding-left: 41px;
+	background: url(../img/bg_dishes.svg);
+	background-repeat: no-repeat;
+	
+	background-position-x: 0%;
+	background-position-y: 44%;
+}
+.sell__down-icon--3{
+	margin-top: -112px;
+}
+.sell__item4{
+	text-align: right;
+	height: 312px;
+	padding-right: 40px;
+	background: url(../img/bg_chef.svg);
+	background-repeat: no-repeat;
+	
+	background-position-x: 100%;
+	background-position-y: 100%;
+	margin-bottom: 40px;
+}
